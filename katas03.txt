@@ -1,0 +1,18 @@
+git branch
+219  git switch chandrashekhar
+220  git branch
+221  echo 123> file.txt
+222  ls
+223  git add file1.txt
+224  git commit -m "added file1.txt"
+225  git add file.txt
+226  git commit -m "added file1.txt"
+227  git log --oneline
+228  git switch main
+229  git log --oneline
+230  echo "this is main file" > file.txt
+231  git add file.txt
+232  git commit -m "main file added to main branch"
+233  git log --oneline --graph --all
+234  git switch chandrashekhar
+235  git diff chandrashekhar main
